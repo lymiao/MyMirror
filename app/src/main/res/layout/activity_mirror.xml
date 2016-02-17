@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/birthday_text"
+        style="@style/MirrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:visibility="gone"
+        tools:text="happy birthday!" />
+
+    <TextView
+        android:id="@+id/date_text"
+        style="@style/MirrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="2016.1.7   星期四" />
+
+    <include layout="@layout/clock" />
+
+    <TextView
+        android:id="@+id/forecast_text"
+        style="@style/MirrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:textSize="35sp"
+        android:visibility="gone"
+        tools:text="北京 23℃~ 15℃"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/pm25_text"
+        style="@style/MirrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:visibility="gone"
+        tools:text="pm2.5：30  空气质量良好"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/one_content_text"
+        style="@style/MirrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:visibility="gone"
+        tools:text="我们在这个世界上不停的奔跑，一不小心就改变了我们"
+        tools:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <hou.mymirror.camera.view.CameraSurfaceView
+            android:id="@+id/camera_surfaceview"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <hou.mymirror.camera.view.FaceView
+            android:id="@+id/face_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <include layout="@layout/camera_bottom_panel" />
+
+    <include layout="@layout/camera_top_panel" />
+
+
+</RelativeLayout>

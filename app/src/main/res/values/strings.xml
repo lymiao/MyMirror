@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="set_up">设置</string>
+    <string name="launch">开始</string>
+    <string name="mood_detection_option">表情检测</string>
+    <string name="latitude">经度</string>
+    <string name="longitude">纬度</string>
+    <string name="city">城市</string>
+    <string name="location">位置</string>
+    <string name="mood_guide">-----></string>
+    <string name="mood_guide_detail">点这里查看演示</string>
+    <string name="mood_explanation">通过前置摄像头可以读出你的表情</string>
+    <string name="api_key">SHGUnplH6peQ8DH8KyXaMmOU</string>
+    <string name="code">E3:21:3E:48:58:27:D9:84:A8:C5:95:BF:1A:43:33:71:E5:01:FD:1D;hou.mymirror</string>
+    <string name="output">json</string>
+    <string name="pm_level_1">空气不错，出去high</string>
+    <string name="pm_level_2">空气质量一般</string>
+    <string name="pm_level_3">这种天气就不要运动了</string>
+    <string name="pm_level_4">也许可以把口罩带上</string>
+    <string name="pm_level_5">记得戴口罩</string>
+    <string name="pm_level_6">已爆表</string>
+    <string name="please_wait">正在检测，请稍候…</string>
+    <string name="choose">选择图片</string>
+    <string name="detect">检测</string>
+
+
+
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_face_smile">FaceSmileActivity</string>
+</resources>
